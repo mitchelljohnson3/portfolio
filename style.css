@@ -1,0 +1,23 @@
+#global-styles{
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content-page{
+    height: fit-content;
+}
+
+/* sidebar styles */
+#side-bar{
+    background-color: #1F4662;
+    color: #FFFFFF;
+}
+#sidebar-header{
+    font-size: 25pt;
+    margin-bottom: 10%;
+}
+#list{
+    font-size: 15pt;
+    text-align: left;
+    line-height: 150%;
+    list-style: none;
+}
