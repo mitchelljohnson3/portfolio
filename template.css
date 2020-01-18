@@ -53,3 +53,6 @@ html, body {
 .sticky{
   position: fixed;
 }
+.fit-content{
+  height: fit-content;
+}

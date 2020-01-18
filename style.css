@@ -1,78 +1,118 @@
 #global-styles{
-    background-color: #FFFFFF;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(61, 61, 77);
+    font-family: Roboto;
+    background: url(./assets/swirls.jpg) repeat;
+    background-attachment: fixed;
 }
 
-/* content page, including header */
-#content-page{
-    /* custom width column */
-    width: 87%;
-    /*  */
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-}
-/* content page, without header */
-#content{
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15pt;
-}
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
 
-/* header styles */
-#header-card{
-    height: fit-content;
+/* SECTION STYLING */
+#info-card{
+    background-color: #FFFFFF ;
+    box-shadow: rgb(0, 0, 0, 0.5) 0.2em 0.2em 0.2em;
+    margin-bottom: 100px;
+}
+/* banner styles */
+#banner{
     text-align: center;
-    font-size: 40pt;
+    background-color: #5cc7b2;
+    height: 10%;
+    width: 100% - 200px;
+    font-size: 60pt;
     color: #FFFFFF;
 }
+/* content page, including header */
+#content-page{
+    /*  */
+    height: fit-content;
+    width: 900px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
 
 /* profile pic style */
 #profile-pic{
     width: 100%;
     border: 2px solid #5cc7b2;
+    border-radius: 1em;
 }
 
 /* sidebar styles */
 #side-bar{
     /* custom width column */
-    width: 13%;
+    width: 200px;
     /*  */
-    background-color: #2a3542;
+    background-color: #FFFFFF;
     color: #FFFFFF;
     margin: 0;
     text-align: left;
+    box-shadow: rgb(0, 0, 0, 0.5) 0.2em 0.2em 0.2em;
 }
-#sidebar-header{
-    font-size: 18pt;
-    margin-bottom: 5%;
-    margin-top: 30%;
-    margin-left: -5%;
+
+/* container div */
+#container-div{
+    margin-right: 2.5%;
 }
-#list{
-    font-size: 13pt;
-    text-align: left;
-    margin-left: 5%;
-    line-height: 30px;
-    list-style: circle;
-}
-#link{
-    text-decoration: none;
-    color: #FFFFFF;
+
+/* mobile header style */
+#mobile-header{
+    height: 70px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid grey;
+    box-shadow: rgb(0, 0, 0, 0.5) 0.2em 0.2em 0.2em;
 }
 
 /* media queries */
 /* crossover point from desktop to mobile screens */
-@media only screen and (max-width: 1023px) {
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+@media only screen and (max-width: 1110px) {
     #side-bar{
         display: none;
+    }
+    #mobile-header{
+        display: inline;
     }
     #content-page{
         width: 100%;
     }
+    #container-div{
+        width: 100%;
+    }
 }
 
-/* stops certain elements from resizing */
-@media only screen and (min-width: 1023px) {
-    
+@media only screen and (min-width: 1111px){
+    #mobile-header{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #container-div{
+        margin-right: 1%;
+    }
+}
+@media only screen and (max-width: 1250px) {
+    #container-div{
+        margin-right: 0;
+    }
+}
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+
+
+#test-box{
+    height: 600px;
+    background-color: bisque;
 }
