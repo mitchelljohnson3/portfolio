@@ -1,6 +1,3 @@
-# stock-viewer
+# Mitchell Johnson's Custom Portfolio Website
 
-tabs
-watchlist
-add stocks
-graphs
+This site was made 100% from scratch using my own CSS framework with the execption of the Roboto font imported from google
