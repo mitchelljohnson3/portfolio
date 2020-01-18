@@ -20,19 +20,10 @@
     text-align: center;
     background-color: #5cc7b2;
     height: 10%;
-    width: 100% - 200px;
+    width: 100%;
     font-size: 60pt;
     color: #FFFFFF;
-}
-/* content page, including header */
-#content-page{
-    /*  */
-    height: fit-content;
-    width: 900px;
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15pt;
-    padding: 10px;
+    /* margin-top: 10%; */
 }
 
 /* ===================================================================== */
@@ -60,16 +51,44 @@
 
 /* container div */
 #container-div{
-    margin-right: 2.5%;
+    width: calc(100% - 200px);
+    padding: 0;
+    margin: 0;
+    float: right;
+
 }
 
 /* mobile header style */
 #mobile-header{
     height: 70px;
     background-color: #FFFFFF;
-    border-bottom: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
     box-shadow: rgb(0, 0, 0, 0.5) 0.2em 0.2em 0.2em;
 }
+
+/* section specific styling */
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+/* 
+
+/* content page, including header */
+#content-page{
+    /*  */
+    height: fit-content;
+    width: 900px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+
+
+
 
 /* media queries */
 /* crossover point from desktop to mobile screens */
@@ -81,30 +100,23 @@
         display: none;
     }
     #mobile-header{
-        display: inline;
+        display: table;
     }
     #content-page{
         width: 100%;
     }
     #container-div{
         width: 100%;
+        padding: 0;
+        position: relative;
+        z-index: -10;
+        top: 70px;
     }
 }
-
+/* turn off the mobile header */
 @media only screen and (min-width: 1111px){
     #mobile-header{
         display: none;
-    }
-}
-
-@media only screen and (max-width: 1500px) {
-    #container-div{
-        margin-right: 1%;
-    }
-}
-@media only screen and (max-width: 1250px) {
-    #container-div{
-        margin-right: 0;
     }
 }
 /* ===================================================================== */
@@ -113,6 +125,7 @@
 
 
 #test-box{
+    margin-top: 5%;
     height: 600px;
     background-color: bisque;
 }
