@@ -77,11 +77,11 @@
     padding: 10px;
 }
 #block{
-    height: 180px;
+    height: 160px;
     width: 100%;
     border-bottom: 1px solid lightgray;
     position: relative;
-    padding-top: 50px;
+    padding-top: 30px;
     font-family: Roboto;
 }
 #nametag{
