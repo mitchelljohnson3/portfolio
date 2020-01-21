@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Custom Stlyes -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- My Custom CSS Framework -->
-    <link rel="stylesheet" href="template.css">
+    <link rel="stylesheet" href="./assets/css/template.css">
     <!-- Roboto Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script defer src="./assets/js/fontawesome/all.js"></script>
     <title>Document</title>
 </head>
-<body id="global-styles">
+<body id="global-styles" background="./assets/imgs/grid.jpg">
     <!-- main container start -->
     <div class="container">
 
@@ -22,8 +24,51 @@
             <!-- column start -->
             <div class="col-2 sticky" id="side-bar">
 
-                <img src="./assets/profile-pic.jpg" id="profile-pic">
+                <img src="./assets/imgs/profile-pic.jpg" id="profile-pic">
                 <h1>Mitchell Johnson</h1>
+
+                <button class="btn btn1">
+                    <span style="font-size: 1.8em; color: #5cc7b2;">
+                        <i class="fas fa-user"></i>
+                    </span>
+                About</button>
+
+                <button class="btn btn1">
+                    <span style="font-size: 1.5em; color: green;">
+                        <i class="fas fa-list"></i>
+                    </span>
+                Experience</button>
+
+                <button class="btn btn1">
+                    <span style="font-size: 1.5em; color: darkorange;">
+                        <i class="fas fa-table"></i>
+                    </span>
+                Projects</button>
+
+                <button class="btn btn1">
+                    <span style="font-size: 1.5em; color: Tomato;">
+                        <i class="fas fa-layer-group"></i>
+                    </span>
+                Skills</button>
+
+                <button class="btn btn1">
+                    <span style="font-size: 1.7em; color: purple;">
+                        <i class="fas fa-user-graduate"></i>
+                    </span>
+                Education</button>
+
+                <button class="btn btn1">
+                    <span style="font-size: 1.5em; color: brown;">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                Contact</button>
+
+                <button class="btn btn1">
+                    <span style="font-size: 1.9em; color: grey;">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                Resume</button>
+
 
             <!-- column end -->
             </div>
@@ -41,11 +86,11 @@
             </div>
 
             <!-- column start -->
-            <div class="col- fit-content" id="container-div" style="border: 2px solid green;">
+            <div class="col- fit-content" id="container-div">
 
                 <!-- projects banner -->
                 <div class="row">
-                    <div class="col-12" id="banner">Projects</div>
+                    <div class="col-12" id="banner">PROJECTS</div>
                 </div>
 
                 <!-- sub row start -->
@@ -88,7 +133,6 @@
         </div>
     <!-- main container end -->
     </div>
-
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
