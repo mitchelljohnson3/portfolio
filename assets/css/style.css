@@ -15,7 +15,7 @@
 /* SECTION STYLING */
 #info-card{
     background-color: #e2f3f5 ;
-    box-shadow: rgb(0, 0, 0, 0.5) 0.2em 0.2em 0.2em;
+    box-shadow: rgba(190, 176, 176, 0.5) 0.2em 0.2em 0.2em;
     margin-bottom: 100px;
 }
 /* banner styles */
@@ -29,6 +29,7 @@
     text-align: left;
     text-indent: 5%;
     text-transform: capitalize;
+    z-index: 100;
 }
 /* profile pic style */
 #profile-pic{
@@ -43,10 +44,9 @@
     width: 200px;
     /*  */
     background-color: #FFFFFF;;
-    color: #FFFFFF;;
+    color: #083358;
     margin: 0;
-    text-align: left;
-    box-shadow: rgb(0, 0, 0, 0.5) 0.2em 0.2em 0.2em;
+    box-shadow: rgba(66, 62, 62, 0.5) 0.2em 0.2em 0.2em;
     padding: 0;
 }
 
@@ -64,7 +64,7 @@
     height: 70px;
     background-color: #FFFFFF;
     /* border-bottom: 1px solid grey; */
-    box-shadow: rgb(0, 0, 0, 0.5) 0.2em 0.2em 0.2em;
+    box-shadow: rgba(190, 176, 176, 0.5) 0.2em 0.2em 0.2em;
 }
 /* content page, including header */
 #content-page{
@@ -76,6 +76,22 @@
     font-size: 15pt;
     padding: 10px;
 }
+#block{
+    height: 180px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    padding-top: 50px;
+    font-family: Roboto;
+}
+#nametag{
+    margin-left: 30px;
+    text-align: left;
+}
+/* button animations */
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
 /* sidebar button styles */
 .btn{
     width: 100%;
@@ -88,20 +104,9 @@
     color: grey;
     transition: 1s all ease;
 }
-.btn::before{
-    text-transform: uppercase;
-}
-.btn1::before{
-    background-color: blue;
-}
-.btn:hover::before{
-    background-color: black;
-}
-
 /* ===================================================================== */
 /* ===================================================================== */
 /* ===================================================================== */
-
 
 /* media queries */
 /* crossover point from desktop to mobile screens */
