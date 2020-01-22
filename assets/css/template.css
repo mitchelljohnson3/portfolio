@@ -43,7 +43,7 @@ html, body {
  }
 /* horizontally centers a column */
 .center-col {
- float: none;
+  float: none;
 }
 /* full height content - must be applied to rows */
 .full-height{

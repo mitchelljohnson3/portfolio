@@ -3,34 +3,32 @@
     font-family: Roboto;
     background-repeat: repeat;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 #test-box{
     margin-top: 5%;
+    margin-bottom: 5%;
     height: 400px;
+    max-width: 800px;
     background-color: bisque;
+    box-shadow: rgba(190, 176, 176, 0.5) 0.2em 0.2em 0.2em;
 }
 /* ===================================================================== */
 /* ===================================================================== */
 /* ===================================================================== */
 
-/* SECTION STYLING */
-#info-card{
-    background-color: #e2f3f5 ;
-    box-shadow: rgba(190, 176, 176, 0.5) 0.2em 0.2em 0.2em;
-    margin-bottom: 100px;
-}
 /* banner styles */
 #banner{
     text-align: center;
     background-color: #083358;
-    height: 10%;
+    height: 120px;
     width: 100%;
     font-size: 60pt;
     color: #FFFFFF;
     text-align: left;
     text-indent: 5%;
     text-transform: capitalize;
-    z-index: 100;
+    z-index: 10;
 }
 /* profile pic style */
 #profile-pic{
@@ -43,7 +41,6 @@
 #side-bar{
     /* custom width column */
     width: 200px;
-    /*  */
     background-color: #FFFFFF;;
     color: #083358;
     margin: 0;
@@ -54,10 +51,15 @@
 /* container div */
 #container-div{
     width: calc(100% - 200px);
+    position: relative;
     padding: 0;
     margin: 0;
     float: right;
-
+}
+/* page content */
+#page{
+    max-width: 800px;
+    padding: 0;
 }
 
 /* mobile header style */
@@ -69,12 +71,8 @@
     box-shadow: rgba(94, 89, 89, 0.5) 0.2em 0.2em 0.2em;
     color: #083358;
 }
-/* content page, including header */
-#content-page{
-    /*  */
-    height: fit-content;
-    width: 800px;
-
+.content-page{
+    min-height: calc(100% - 120px);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15pt;
     padding: 10px;
@@ -122,12 +120,6 @@
     position: fixed;
     right: 10px;
     top: 20px;
-}
-#menu-close{
-    position: fixed;
-    bottom: 30px;
-    left: 20%;
-    cursor: pointer;
 }
 /* ================================ */
 
@@ -181,7 +173,6 @@
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     border-left: 4px solid lightblue;
-    font-size: 21pt;
     transition-duration: 0s;
     cursor: pointer;
 }
@@ -224,7 +215,16 @@
     #banner{
         font-size: 20pt;
         text-align: center;
+        
     }
+    .content-page{
+        min-height: calc(100% - 190px);
+    }
+    .offset{
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 840px) {
     #global-styles{
         background-repeat: repeat-y;
     }
