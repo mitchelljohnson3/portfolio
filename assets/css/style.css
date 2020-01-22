@@ -151,15 +151,22 @@
 .mobile-btn{
     content: '';
     width: 100%;
-    height: 75px;
-    font-size: 20pt;
+    height: 100px;
+    font-size: 18pt;
     text-align: left;
+    text-indent: 15%;
     border: 0;
     background-color: #FFFFFF;
     color: grey;
     transition: 1s all ease;
-    margin-bottom: 20px;
-    margin-top: 20px;
+}
+.mobile-btn:hover{
+    background-color: rgba(182, 182, 182, 0.3);
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 4px solid lightblue;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: rgba(182, 182, 182, 0.3);
@@ -167,6 +174,15 @@
     border-bottom: 1px solid lightgray;
     border-left: 4px solid lightblue;
     transition-duration: 0.5s;
+    cursor: pointer;
+}
+.mobile-btn:focus{
+    background-color: rgba(182, 182, 182, 0.3);
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 4px solid lightblue;
+    font-size: 21pt;
+    transition-duration: 0s;
     cursor: pointer;
 }
 .btn:focus{
