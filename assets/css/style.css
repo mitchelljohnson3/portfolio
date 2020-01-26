@@ -275,6 +275,13 @@
     .experience{
         width: 100%;
     }
+
+    #about-page{
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: Roboto;
+    }
 }
 @media only screen and (max-width: 840px) {
     #global-styles{
