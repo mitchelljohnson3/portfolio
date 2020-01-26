@@ -6,12 +6,12 @@
     overflow-y: scroll;
 }
 #info-card{
+    width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
     height: 400px;
     background-color: #FFFFFF;
-    border: 1px solid black;
-    box-shadow: rgba(190, 176, 176, 0.5) 0.2em 0.2em 0.2em;
+    box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
 }
 /* ===================================================================== */
 /* ===================================================================== */
@@ -179,6 +179,59 @@
 /* ===================================================================== */
 /* ===================================================================== */
 
+
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+/* CONTENT STYLING DONT TOUCH THE REST */
+#page{
+    padding: 0;
+    width: 100%;
+}
+/* ================================= */
+.about{
+    width: 100%;
+}
+#about-page{
+    padding: 50px;
+}
+#profile-pic{
+    width: 300px;
+    border: 2px solid #083358;
+    border-radius: 1em;
+    float: left;
+}
+#statement{
+    font-size: 26pt;
+    font-family: Roboto;
+    border-left: 6px solid #083358;
+    padding-left: 10px;
+    color: rgba(59, 58, 58);
+    float: left;
+    margin: 50px;
+    font-weight: normal;
+}
+/* ================================= */
+.experience{
+    width: 800px;
+}
+/* ================================= */
+.projects{
+
+}
+/* ================================= */
+.skills{
+
+}
+/* ================================= */
+.education{
+
+}
+/* ================================= */
+.contact{
+
+}
+/* ================================= */
 /* media queries */
 /* crossover point from desktop to mobile screens */
 /* ===================================================================== */
@@ -212,41 +265,13 @@
     .offset{
         height: 70px;
     }
+    /* =========================================== */
+    .experience{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 840px) {
     #global-styles{
         background-repeat: repeat-y;
     }
-}
-/* ===================================================================== */
-/* ===================================================================== */
-/* ===================================================================== */
-/* CONTENT STYLING DONT TOUCH THE REST */
-/* profile pic style */
-#profile-pic{
-    width: 200px;
-    border: 2px solid #5cc7b2;
-    border-radius: 1em;
-}
-#page{
-    padding: 0;
-    width: 100%;
-}
-.about{
-    width: 1000px;
-}
-.experience{
-
-}
-.projects{
-
-}
-.skills{
-
-}
-.education{
-
-}
-.contact{
-
 }
