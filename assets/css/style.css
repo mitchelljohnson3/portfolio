@@ -7,11 +7,20 @@
 }
 #info-card{
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     height: fit-content;
     background-color: #FFFFFF;
     box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
+}
+#project-card{
+    width: 400px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    height: 450px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
+    display: table;
 }
 /* ===================================================================== */
 /* ===================================================================== */
@@ -231,7 +240,7 @@
     margin-right: 10px;
 }
 #info-card-header{
-    height: 50px;
+    height: 60px;
     border-bottom: 1px solid lightgrey;
     color: #083358;
     padding: 10px;
@@ -275,7 +284,7 @@
 /* ================================= */
 /* project styles */
 .projects{
-
+    display: table;
 }
 /* ================================= */
 /* skills styles */
@@ -364,7 +373,7 @@
     /* =========================================== */
     /* project section mobile styles */
     .projects{
-
+        
     }
     /* ================================= */
     /* skills section mobile styles */
