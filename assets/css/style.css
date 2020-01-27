@@ -15,12 +15,12 @@
 }
 #project-card{
     width: 400px;
-    margin-top: 7%;
-    margin-bottom: 7%;
     height: 450px;
+    margin: 30px;
     background-color: #FFFFFF;
     box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
     display: table;
+    float: left;
 }
 /* ===================================================================== */
 /* ===================================================================== */
@@ -284,6 +284,7 @@
 /* ================================= */
 /* project styles */
 .projects{
+    width: 100%;
     display: table;
 }
 /* ================================= */
@@ -373,7 +374,10 @@
     /* =========================================== */
     /* project section mobile styles */
     .projects{
-        
+        width: 100%;
+    }
+    #project-card{
+        width: 100%;
     }
     /* ================================= */
     /* skills section mobile styles */
