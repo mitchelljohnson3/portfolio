@@ -200,13 +200,13 @@
     width: 300px;
     border: 2px solid #083358;
     border-radius: 1em;
+    float: right;
 }
 #statement{
     font-size: 26pt;
     border-left: 6px solid #083358;
     padding-left: 10px;
     color: rgb(121, 23, 23);
-    float: left;
     margin-bottom: 40px;
     font-weight: normal;
 }
@@ -291,6 +291,12 @@
     }
     #statement{
         font-size: 18pt;
+    }
+    #profile-pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
     /* =========================================== */
 }
