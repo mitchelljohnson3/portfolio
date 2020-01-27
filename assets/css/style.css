@@ -9,7 +9,7 @@
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 400px;
+    height: fit-content;
     background-color: #FFFFFF;
     box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
 }
@@ -264,6 +264,14 @@
     font-size: 12pt;
     font-weight: normal;
 }
+#break{
+    display: none;
+}
+#date{
+    margin-top: 20px;
+    font-size: 10pt;
+    color: gray;
+}
 /* ================================= */
 /* project styles */
 .projects{
@@ -348,6 +356,9 @@
         font-size: 12pt;
     }
     #info-card-content{
+        display: block;
+    }
+    #break{
         display: block;
     }
     /* =========================================== */
