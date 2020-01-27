@@ -187,8 +187,10 @@
 #page{
     padding: 0;
     width: 100%;
+    font-family: Roboto;
 }
 /* ================================= */
+/* about styles */
 .about{
     width: 100%;
 }
@@ -218,22 +220,67 @@
     margin-bottom: 40px;
 }
 /* ================================= */
+/* experience  styles */
 .experience{
     width: 800px;
 }
+#icon{
+    height: 30px;
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+#info-card-header{
+    height: 50px;
+    border-bottom: 1px solid lightgrey;
+    color: #083358;
+    padding: 10px;
+}
+#info-card-content{
+    padding: 15px;
+    font-size: 12pt;
+}
+#title{
+    float: right;
+    color: rgb(121, 23, 23);
+    font-weight: bold;
+}
+#title-mobile{
+    float: right;
+    color: rgb(121, 23, 23);
+    display: none;
+    font-weight: bold;
+}
+#list{
+    margin-top: 10px;
+    line-height: 30px;
+    color: grey;
+    font-weight: bold;
+    font-size: 12pt;
+}
+#list-element{
+    margin-left: 20px;
+    color: black;
+    font-size: 12pt;
+    font-weight: normal;
+}
 /* ================================= */
+/* project styles */
 .projects{
 
 }
 /* ================================= */
+/* skills styles */
 .skills{
 
 }
 /* ================================= */
+/* education styles */
 .education{
 
 }
 /* ================================= */
+/* contact styles */
 .contact{
 
 }
@@ -272,12 +319,7 @@
         height: 70px;
     }
     /* =========================================== */
-    /* section mobile styling */
-    .experience{
-        width: 100%;
-    }
-    /* =========================================== */
-    /* about section mobile section */
+    /* about section mobile styles */
     #about-page{
         padding-top: 50px;
         padding-left: 10px;
@@ -292,14 +334,55 @@
     #statement{
         font-size: 18pt;
     }
+    /* =========================================== */
+    /* experience section mobile styles */
+    .experience{
+        width: 100%;
+    }
+    #title{
+        display: none;
+    }
+    #title-mobile{
+        float: left;
+        display: block;
+        font-size: 12pt;
+    }
+    #info-card-content{
+        display: block;
+    }
+    /* =========================================== */
+    /* project section mobile styles */
+    .projects{
+
+    }
+    /* ================================= */
+    /* skills section mobile styles */
+    .skills{
+
+    }
+    /* ================================= */
+    /* education section mobile styles */
+    .education{
+
+    }
+    /* ================================= */
+    /* contact section mobile styles */
+    .contact{
+
+    }
+}
+/* extra about section styling */
+@media only screen and (max-width: 1300px) {
     #profile-pic{
         display: block;
         margin-left: auto;
         margin-right: auto;
         float: none;
+        margin-bottom: 15px;
     }
-    /* =========================================== */
 }
+/* ================================= */
+/* background wrap mobile styling */
 @media only screen and (max-width: 840px) {
     #global-styles{
         background-repeat: repeat-y;
