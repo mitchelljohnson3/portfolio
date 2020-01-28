@@ -7,8 +7,8 @@
 }
 #info-card{
     width: 100%;
-    margin-top: 7%;
-    margin-bottom: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     height: fit-content;
     background-color: #FFFFFF;
     box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
@@ -328,6 +328,18 @@
 }
 #github-button{
     cursor: pointer;
+}
+#project-list{
+    color: rgb(121, 23, 23); 
+    font-size: 16pt;
+    font-weight: bold;
+}
+#project-list-element{
+    margin-left: 20px;
+    color: black;
+    font-size: 10pt;
+    font-weight: normal;
+    line-height: 30px;
 }
 /* ================================= */
 /* skills styles */
