@@ -265,6 +265,7 @@
 }
 #list{
     margin-top: 10px;
+    margin-bottom: 10px;
     line-height: 30px;
     color: grey;
     font-weight: bold;
@@ -314,6 +315,19 @@
 #more-info-close-button{
     cursor: pointer;
     float: right;
+}
+#more-info-info{
+    height: 70%;
+}
+#more-info-buttons{
+    border-top: 1px solid grey;
+    padding: 30px;
+}
+#share-button{
+    cursor: pointer;
+}
+#github-button{
+    cursor: pointer;
 }
 /* ================================= */
 /* skills styles */
