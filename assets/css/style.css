@@ -353,14 +353,56 @@ html{
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 300px;
+    height: fit-content;
     background-color: #FFFFFF;
     box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
+}
+#skill-title{
+    color: #083358;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+#sub-skill-title{
+    color: rgb(121, 23, 23);
+    font-weight: bold;
+    padding: 12px;
+    border-bottom: 1px solid rgb(121, 23, 23);
+}
+#skill-info{
+    padding: 20px;
+    height: fit-content;
+    margin: 30px;
+}
+#skill-list{
+    height: fit-content;
+    padding: 30px;
+}
+#skill-icon{
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+#label{
+    text-align: center;
+    font-size: 12pt;
+}
+figure{
+    display: inline-block;
+    margin: 30px;
 }
 /* ================================= */
 /* education styles */
 .education{
-
+    width: 800px;
+}
+#education-info-card{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: fit-content;
+    background-color: #FFFFFF;
+    box-shadow: rgba(54, 54, 54, 0.7)0 0 5px;
 }
 /* ================================= */
 /* contact styles */
@@ -442,19 +484,20 @@ html{
         width: 100%;
     }
     #project-card{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        width: 400px;
+        float: none;
+        margin-left: calc( (100% - 400px) / 2);
+        margin-right: calc( (100% - 400px) / 2);
     }
     /* ================================= */
     /* skills section mobile styles */
-    .skills{
-
+    figure{
+        margin: 10px;
     }
     /* ================================= */
     /* education section mobile styles */
     .education{
-
+        
     }
     /* ================================= */
     /* contact section mobile styles */
@@ -471,11 +514,22 @@ html{
         float: none;
         margin-bottom: 15px;
     }
+    .skills{
+        width: 100%;
+    }
 }
 /* ================================= */
 /* background wrap mobile styling */
 @media only screen and (max-width: 840px) {
     #global-styles{
         background-repeat: repeat-y;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #project-card{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
