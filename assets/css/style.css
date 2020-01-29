@@ -381,7 +381,7 @@ html{
 #skill-icon{
     height: 70px;
     width: 70px;
-    margin: 10px;
+    margin: 5px;
 }
 #label{
     text-align: center;
@@ -497,7 +497,7 @@ figure{
     /* ================================= */
     /* education section mobile styles */
     .education{
-        
+        width: 100%;
     }
     /* ================================= */
     /* contact section mobile styles */
