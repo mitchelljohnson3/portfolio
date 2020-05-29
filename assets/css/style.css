@@ -296,7 +296,7 @@ html{
 }
 #project-image{
     width: 100%;
-    height: 60%;
+    height: 250px;
     cursor: pointer;
     float: left;
 }
