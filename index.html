@@ -1,508 +1,649 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta property="og:image" content="./assets/imgs/portfolio-site-img.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Custom Stlyes -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- My Custom CSS Framework -->
-    <link rel="stylesheet" href="./assets/css/template.css">
-    <!-- Roboto Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <!-- Font Awesome Icons -->
-    <script defer src="./assets/js/fontawesome/all.js"></script>
-    <title>Mitchell Johnson | Software Engineer</title>
-</head>
-
-<body id="global-styles" background="./assets/imgs/grid.jpg">
-    <img src="./assets/imgs/portfolio-site-img.png" style="display: none;">
-    <!-- main container start -->
-    <div class="container">
-
-        <!-- row start -->
-        <div class="row full-height">
-
-            <!-- column start -->
-            <div class="col-2 sticky" id="side-bar">
-
-                <div id="block">
-                    <div id="nametag">
-                        <h1 style="font-size: 22pt;">Mitchell Johnson</h1>
-                        <p style="color: gray;">Software Engineer I at Blue Origin</p>
-                    </div>
-                </div>
-
-                <button class="btn" onclick="window.location.href='#aboutPage'">
-                    <span style="font-size: 1.8em; color: #5cc7b2;">
-                        <i class="fas fa-user"></i>
-                    </span>
-                    About</button>
-
-                <button class="btn" onclick="window.location.href='#experiencePage'">
-                    <span style="font-size: 1.5em; color: green;">
-                        <i class="fas fa-list"></i>
-                    </span>
-                    Experience</button>
-
-                <button class="btn" onclick="window.location.href='#projectsPage'">
-                    <span style="font-size: 1.5em; color: darkorange;">
-                        <i class="fas fa-table"></i>
-                    </span>
-                    Projects</button>
-
-                <button class="btn" onclick="window.location.href='#skillsPage'">
-                    <span style="font-size: 1.5em; color: Tomato;">
-                        <i class="fas fa-layer-group"></i>
-                    </span>
-                    Skills</button>
-
-                <button class="btn" onclick="window.location.href='#educationPage'">
-                    <span style="font-size: 1.7em; color: purple;">
-                        <i class="fas fa-user-graduate"></i>
-                    </span>
-                    Education</button>
-
-                <button class="btn" onclick="window.location.href='#contactPage'">
-                    <span style="font-size: 1.5em; color: brown;">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    Contact</button>
-
-                <button class="btn"
-                    onclick="window.location.href='https://drive.google.com/file/d/1q5IZ5KQhRVzM9hJA6_my8dswBQu-_ARN/view?usp=sharing'">
-                    <span style="font-size: 1.9em; color: grey;">
-                        <i class="fas fa-file-alt"></i>
-                    </span>
-                    Resume</button>
-
-
-                <!-- column end -->
-            </div>
-
-            <!-- row start -->
-            <div class="row" id="header-style">
-                <!-- column start -->
-                <div class="col-12 sticky" id="mobile-header">
-                    <h2 id="legs">Mitchell Johnson</h2>
-                    <p style="color: gray;">Software Engineer I</p>
-                    <input type="checkbox" id="chk">
-                    <label for="chk" class="show-menu-btn">
-                        <i style="font-size: 2em;" class="fas fa-bars"></i>
-                    </label>
-                </div>
-                <!-- column end -->
-
-                <div class="col- mobile-menu" id="styles">
-                    <ul>
-                        <button class="mobile-btn" onclick="window.location.href='#header-style'">
-                            <span style="font-size: 1.8em; color: #5cc7b2;">
-                                <i class="fas fa-user"></i>
-                            </span>
-                            About</button>
-
-                        <button class="mobile-btn" onclick="window.location.href='#experiencePage'">
-                            <span style="font-size: 1.5em; color: green;">
-                                <i class="fas fa-list"></i>
-                            </span>
-                            Experience</button>
-
-                        <button class="mobile-btn" onclick="window.location.href='#projectsPage'">
-                            <span style="font-size: 1.5em; color: darkorange;">
-                                <i class="fas fa-table"></i>
-                            </span>
-                            Projects</button>
-
-                        <button class="mobile-btn" onclick="window.location.href='#skillsPage'">
-                            <span style="font-size: 1.5em; color: Tomato;">
-                                <i class="fas fa-layer-group"></i>
-                            </span>
-                            Skills</button>
-
-                        <button class="mobile-btn" onclick="window.location.href='#educationPage'">
-                            <span style="font-size: 1.7em; color: purple;">
-                                <i class="fas fa-user-graduate"></i>
-                            </span>
-                            Education</button>
-
-                        <button class="mobile-btn" onclick="window.location.href='#contactPage'">
-                            <span style="font-size: 1.5em; color: brown;">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                            Contact</button>
-
-                        <button class="mobile-btn"
-                            onclick="window.location.href='https://drive.google.com/file/d/1sKLQUAmSbWn4fVQCvHq1R2JJ0XldRnN3/view?usp=sharing'">
-                            <span style="font-size: 1.9em; color: grey;">
-                                <i class="fas fa-file-alt"></i>
-                            </span>
-                            Resume</button>
-                    </ul>
-                </div>
-
-                <!-- row end -->
-            </div>
-
-            <!-- column start -->
-            <div class="col-12" id="container-div">
-                <!-- ================================================================== -->
-                <div class="row">
-                    <div id="aboutPage"></div>
-                    <div class="col-12" id="banner">ABOUT</div>
-                </div>
-                <div class="row content-page" id="page">
-                    <div class="col- about fit-content">
-
-                        <div id="about-page">
-
-                            <img id="profile-pic" src="./assets/imgs/profile-pic.jpg">
-
-                            <h1 id="statement">Dream-Driven, and Passionate Software Engineer </h1>
-
-                            <p id="about-text"> My name is Mitchell. I'm a Software Engineer who enjoys making things
-                                that serve a purpose. My hobbies include woodworking, 3D-Printing, and Gardening.
-                                I'm currently working for Blue Origin as a Software Engineer I on the Enterprise team. 
-                                I always eager to learn and ready to put my skills to the test to show what I can accomplish.
-                            </p>
-
-                            <p id="about-text"></p>
-
-                        </div>
-
-                    </div>
-                </div>
-                <!-- ================================================================== -->
-                <div class="row">
-                    <div class="offset" id="experiencePage"></div>
-                    <div class="col-12" id="banner">EXPERIENCE</div>
-                </div>
-                <div class="row content-page" id="page">
-                    <div class="col- experience center-col fit-content">
-
-                        <!-- QSC Tutor card -->
-                        <div id="info-card">
-
-                            <div id="info-card-header">
-                                <img id="icon" src="./assets/icons/blue_origin.png">
-                                <p id="title">Enterprise Software Engineer I</p>
-                                <p>Blue Origin</p>
-                            </div>
-
-                            <div id="info-card-content">
-                                <p id="title-mobile">Enterprise Software Engineer I</p><br id="break"><br id="break">
-                                <p style="color: grey;"> - ...</p>
-                                <ul id="list">
-                                    <li id="list-element">...</li>
-                                    <li id="list-element">...</li>
-                                    <li id="list-element">...</li>
-                                </ul>
-                                <p id="date">Jun 2022 - Present | Kent, WA</p>
-                            </div>
-
-                        </div>
-
-                        <!-- QSC Tutor card -->
-                        <div id="info-card">
-
-                            <div id="info-card-header">
-                                <img id="icon" src="./assets/icons/W-Logo_Purple_Hex.png">
-                                <p id="title">Computer Science Tutor</p>
-                                <p>University of Washington QSC</p>
-                            </div>
-
-                            <div id="info-card-content">
-                                <p id="title-mobile">Computer Science Tutor</p><br id="break"><br id="break">
-                                <p style="color: grey;"> - Tutor a highly diverse student body on computer science
-                                    fundamentals in data structures and algorithms.</p>
-                                <ul id="list">Tutor
-                                    <li id="list-element">Reinforce solid understanding and grasp on core computer
-                                        science topics like data structures, algorithms and software engineering.</li>
-                                    <li id="list-element">Created strong interpersonal and leadership skills through the
-                                        interaction with many students of diverse backgrounds. </li>
-                                    <li id="list-element"><u>Leveraged knowledge</u> in C++, Java, Python, Software
-                                        Engineering, Data Structures & Algorithms</li>
-                                </ul>
-                                <p id="date">Jan 2021 - Jun 2022 | Bothell, WA</p>
-                            </div>
-
-                        </div>
-
-                        <!-- WAVES card -->
-                        <div id="info-card">
-
-                            <div id="info-card-header">
-                                <img id="icon" src="./assets/icons/petri.png">
-                                <p id="title">Software Developer Intern</p>
-                                <p>W.A.V.E.S (Workshop for Avida-Ed Suite)</p>
-                            </div>
-
-                            <div id="info-card-content">
-                                <p id="title-mobile">Software Developer Intern</p><br id="break"><br id="break">
-                                <p style="color: grey;"> - Improved the digital evolution experiment module in MABE2, a
-                                    core part of Avida-Ed.</p>
-                                <ul id="list">Developer
-                                    <li id="list-element">Streamlined digital evolution research process by decreasing
-                                        the number of steps involved in experiment setup and creation by 60%.</li>
-                                    <li id="list-element">Designed and implemented base abstract classes for genomes,
-                                        brains, and organisms reducing custom experiment implementation time by 50%.
-                                    </li>
-                                    <li id="list-element"><u>Leveraged knowledge</u> in C++, Git, Evolutionary Biology,
-                                        Python</li>
-                                </ul>
-                                <p id="date">June 2021 - Aug 2021 | MSU, MI (remote)</p>
-                            </div>
-
-                        </div>
-
-                        <!-- Tippt Card -->
-                        <div id="info-card">
-
-                            <div id="info-card-header">
-                                <img id="icon" src="./assets/imgs/tippt-logo.png">
-                                <p id="title">Software Developer Intern</p>
-                                <p>Tippt Co.</p>
-                            </div>
-
-                            <div id="info-card-content">
-                                <p id="title-mobile">Software Developer Intern</p><br id="break"><br id="break">
-                                <p style="color: grey;"> - Helped develop and launch progressive web application that
-                                    allows users to
-                                    rate and review restaurants in New York city based on their sustainability choices.
-                                </p>
-                                <ul id="list">Developer
-                                    <li id="list-element">Implemented photo uploads and user authentication using AWS
-                                        and Passport.js respectively in a React progressive web app.</li>
-                                    <li id="list-element">Designed UML and user-story diagrams of entire application
-                                        before development
-                                        started which streamlined the development process. UML emphasized modularity of
-                                        React components, and
-                                        provided good documentation for future developers.</li>
-                                    <li id="list-element"><u>Leveraged knowledge</u> in Full Stack Web development,
-                                        React, JavaScript, Git, Chrome Developer Tools</li>
-                                </ul>
-                                <p id="date">June 2020 - September 2020 | New York, NY</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <!-- ================================================================== -->
-                <div class="row">
-                    <div class="offset" id="projectsPage"></div>
-                    <div class="col-12" id="banner">PROJECTS</div>
-                </div>
-                <div class="row content-page" id="page">
-                    <div class="col- projects center-col fit-content">
-                        <!-- ================================================================== -->
-                        <!-- ================================================================== -->
-                        <div id="project-card">
-                            <div id="more-info-page">
-
-                                <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                    <i class="fas fa-times" id="more-info-close-button"></i>
-                                </span>
-
-                                <div id="more-info-info">
-
-                                    <ul id="project-list">React Native Finance Tracker
-                                        <li id="project-list-element">Allows users to report, delete, filter, and summarize transactions with customizable categories.</li>
-                                        <li id="project-list-element">Created a REST API with Express.js that talks to a web hosted MySQL database on AWS.</li>
-                                    </ul>
-                                    <ul id="project-list">Utilized
-                                        <li id="project-list-element">Full Stack Web Development, Javascript, CSS, React Native JSX, Node.js
-                                        </li>
-                                    </ul>
-
-                                </div>
-
-                                <div id="more-info-buttons">
-
-                                    <span style="font-size: 2.5em; color: rgb(121, 23, 23);">
-                                        <i class="fab fa-github" id="github-button"
-                                            onclick="window.location.href='https://github.com/mitchelljohnson3/RN_finance_tracker/blob/main/README.md'"></i>
-                                    </span>
-
-                                </div>
-
-                            </div>
-                            <img id="project-image" src="./assets/imgs/finance_tracker.jpg">
-                            <div id="project-info">
-                                <p>React Native Finance Tracker</p>
-                                <p style="color: black; font-size: 12pt;">IOS App that allows users to report, delete, filter, and summarize transactions with customizable categories.</p>
-                            </div>
-                        </div>
-                        <!-- ================================================================== -->
-                        <!-- ================================================================== -->
-                        <div id="project-card">
-                            <div id="more-info-page">
-
-                                <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                    <i class="fas fa-times" id="more-info-close-button"></i>
-                                </span>
-
-                                <div id="more-info-info">
-
-                                    <ul id="project-list">Electron Orbital Simulator
-                                        <li id="project-list-element">Developed Unity program that generates cartesian
-                                            point6 representations/simulations different orbital shapes of hydrogen-like
-                                            atoms.</li>
-                                        <li id="project-list-element">Implemented Monte Carlo distribution sampler in C#
-                                            to aid the generation of different orbital shapes.</li>
-                                        <li id="project-list-element">Documenting my development process on YouTube -
-                                            youtube.com/channel/UCOtgpuwv-usepYzEspPQ8ng.</li>
-                                    </ul>
-                                    <ul id="project-list">Utilized
-                                        <li id="project-list-element">C#, Linear Algebra, Multivariable Calculus, Matlab
-                                        </li>
-                                    </ul>
-
-                                </div>
-
-                                <div id="more-info-buttons">
-
-                                    <span style="font-size: 2.5em; color: rgb(121, 23, 23);">
-                                        <i class="fab fa-github" id="github-button"
-                                            onclick="window.location.href='https://github.com/mitchelljohnson3/AtomSim'"></i>
-                                    </span>
-
-                                </div>
-
-                            </div>
-                            <img id="project-image" src="./assets/imgs/atom-sim.png">
-                            <div id="project-info">
-                                <p>Electron Orbital Simulator</p>
-                                <p style="color: black; font-size: 12pt;">Unity program that simulates electron orbitals
-                                    in cartesian coordinates.</p>
-                            </div>
-                        </div>
-                        <!-- ================================================================== -->
-                        <!-- ================================================================== -->
-                        <div id="project-card">
-                            <div id="more-info-page">
-
-                                <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                    <i class="fas fa-times" id="more-info-close-button"></i>
-                                </span>
-
-                                <div id="more-info-info">
-
-                                    <ul id="project-list">Investing Bot + Strategy Backtester
-                                        <li id="project-list-element">Designed and developed an investment algorithm
-                                            that analyzes market data in real time to buy and sell stocks.</li>
-                                        <li id="project-list-element">Created investment backtester that tests a given
-                                            algorithm on 5+ years of historical data with any amount of symbols, giving
-                                            a report of how the algorithm performed at the end.</li>
-                                    </ul>
-                                    <ul id="project-list">Utilized
-                                        <li id="project-list-element">Python, Data Structure & Algorithms, Alpaca API
-                                            and broker</li>
-                                    </ul>
-
-                                </div>
-
-                                <div id="more-info-buttons">
-
-                                    <span style="font-size: 2.5em; color: rgb(121, 23, 23);">
-                                        <i class="fab fa-github" id="github-button"
-                                            onclick="window.location.href='https://github.com/mitchelljohnson3/AlpacaBot'"></i>
-                                    </span>
-
-                                </div>
-
-                            </div>
-                            <img id="project-image" src="./assets/imgs/alpaca.png">
-                            <div id="project-info">
-                                <p>Investing Bot + Strategy Backtester</p>
-                                <p style="color: black; font-size: 12pt;">Stock investment bot and stategy backtester
-                                    built using Alpaca API.</p>
-                            </div>
-                        </div>
-                        <!-- ================================================================== -->
-                        <!-- ================================================================== -->
-                        <div id="project-card">
-                            <div id="more-info-page">
-
-                                <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                    <i class="fas fa-times" id="more-info-close-button"></i>
-                                </span>
-
-                                <div id="more-info-info">
-
-                                    <ul id="project-list">Rimor in Space
-                                        <li id="project-list-element">Collaboratively developed free-to-play 2-D space
-                                            shooter using Unity.</li>
-                                        <li id="project-list-element">Made for final project in a game development class
-                                            at my university.</li>
-                                    </ul>
-                                    <ul id="project-list">Utilized
-                                        <li id="project-list-element">Unity, C#, Data Structures & Algorithms</li>
-                                    </ul>
-
-                                </div>
-
-                                <div id="more-info-buttons">
-
-                                    <span style="font-size: 2.5em; color: rgb(121, 23, 23);">
-                                        <i class="fas fa-share-square" id="github-button"
-                                            onclick="window.location.href='https://mitchelljohnson3.github.io/webgl-rimor-in-space/index.html'"></i>
-                                    </span>
-
-                                </div>
-
-                            </div>
-                            <img id="project-image" src="./assets/imgs/rimor-in-space.png">
-                            <div id="project-info">
-                                <p>Rimor in Space</p>
-                                <p style="color: black; font-size: 12pt;">Space-themed 2-D top-down shooter made with
-                                    Unity.</p>
-                            </div>
-                        </div>
-                        <!-- ================================================================== -->
-                        <!-- ================================================================== -->
-                        <div id="project-card">
-                            <div id="more-info-page">
-
-                                <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                    <i class="fas fa-times" id="more-info-close-button"></i>
-                                </span>
-
-                                <div id="more-info-info">
-
-                                    <ul id="project-list">Archer
-                                        <li id="project-list-element">Developed archery simulator in Unity using vector
-                                            math to detect collisions rather than colliders.</li>
-                                        <li id="project-list-element">Made for final project in a 3D graphics class
-                                            at my university.</li>
-                                    </ul>
-                                    <ul id="project-list">Utilized
-                                        <li id="project-list-element">Unity, C#, Data Structures & Algorithms</li>
-                                    </ul>
-
-                                </div>
-
-                                <div id="more-info-buttons">
-
-                                    <span style="font-size: 2.5em; color: rgb(121, 23, 23);">
-                                        <i class="fas fa-share-square" id="github-button"
-                                            onclick="window.location.href='https://mitchelljohnson3.github.io/webgl-archer/index.html'"></i>
-                                    </span>
-
-                                </div>
-
-                            </div>
-                            <img id="project-image" src="./assets/imgs/archer.png">
-                            <div id="project-info">
-                                <p>Archer</p>
-                                <p style="color: black; font-size: 12pt;">Archery simulator made from scratch in Unity.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- ================================================================== -->
-                        <!-- ================================================================== -->
-                        <!-- <div id="project-card">
+	<head>
+		<meta property="og:image" content="./assets/imgs/portfolio-site-img.png" />
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!-- Custom Stlyes -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<!-- My Custom CSS Framework -->
+		<link rel="stylesheet" href="./assets/css/template.css" />
+		<!-- Roboto Font -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome Icons -->
+		<script defer src="./assets/js/fontawesome/all.js"></script>
+		<title>Mitchell Johnson | Full Stack Software Engineer</title>
+	</head>
+
+	<body id="global-styles" background="./assets/imgs/grid.jpg">
+		<img src="./assets/imgs/portfolio-site-img.png" style="display: none" />
+		<!-- main container start -->
+		<div class="container">
+			<!-- row start -->
+			<div class="row full-height">
+				<!-- column start -->
+				<div class="col-2 sticky" id="side-bar">
+					<div id="block">
+						<div id="nametag">
+							<h1 style="font-size: 22pt">Mitchell Johnson</h1>
+							<p style="color: gray">Software Engineer II at Blue Origin</p>
+						</div>
+					</div>
+
+					<button class="btn" onclick="window.location.href='#aboutPage'">
+						<span style="font-size: 1.8em; color: #5cc7b2">
+							<i class="fas fa-user"></i>
+						</span>
+						About
+					</button>
+
+					<button class="btn" onclick="window.location.href='#experiencePage'">
+						<span style="font-size: 1.5em; color: green">
+							<i class="fas fa-list"></i>
+						</span>
+						Experience
+					</button>
+
+					<button class="btn" onclick="window.location.href='#projectsPage'">
+						<span style="font-size: 1.5em; color: darkorange">
+							<i class="fas fa-table"></i>
+						</span>
+						Projects
+					</button>
+
+					<button class="btn" onclick="window.location.href='#skillsPage'">
+						<span style="font-size: 1.5em; color: Tomato">
+							<i class="fas fa-layer-group"></i>
+						</span>
+						Skills
+					</button>
+
+					<button class="btn" onclick="window.location.href='#educationPage'">
+						<span style="font-size: 1.7em; color: purple">
+							<i class="fas fa-user-graduate"></i>
+						</span>
+						Education
+					</button>
+
+					<button class="btn" onclick="window.location.href='#contactPage'">
+						<span style="font-size: 1.5em; color: brown">
+							<i class="fas fa-envelope"></i>
+						</span>
+						Contact
+					</button>
+
+					<button
+						class="btn"
+						onclick="window.location.href='https://drive.google.com/file/d/1q5IZ5KQhRVzM9hJA6_my8dswBQu-_ARN/view?usp=sharing'"
+					>
+						<span style="font-size: 1.9em; color: grey">
+							<i class="fas fa-file-alt"></i>
+						</span>
+						Resume
+					</button>
+
+					<!-- column end -->
+				</div>
+
+				<!-- row start -->
+				<div class="row" id="header-style">
+					<!-- column start -->
+					<div class="col-12 sticky" id="mobile-header">
+						<h2 id="legs">Mitchell Johnson</h2>
+						<p style="color: gray">Software Engineer I</p>
+						<input type="checkbox" id="chk" />
+						<label for="chk" class="show-menu-btn">
+							<i style="font-size: 2em" class="fas fa-bars"></i>
+						</label>
+					</div>
+					<!-- column end -->
+
+					<div class="col- mobile-menu" id="styles">
+						<ul>
+							<button
+								class="mobile-btn"
+								onclick="window.location.href='#header-style'"
+							>
+								<span style="font-size: 1.8em; color: #5cc7b2">
+									<i class="fas fa-user"></i>
+								</span>
+								About
+							</button>
+
+							<button
+								class="mobile-btn"
+								onclick="window.location.href='#experiencePage'"
+							>
+								<span style="font-size: 1.5em; color: green">
+									<i class="fas fa-list"></i>
+								</span>
+								Experience
+							</button>
+
+							<button
+								class="mobile-btn"
+								onclick="window.location.href='#projectsPage'"
+							>
+								<span style="font-size: 1.5em; color: darkorange">
+									<i class="fas fa-table"></i>
+								</span>
+								Projects
+							</button>
+
+							<button
+								class="mobile-btn"
+								onclick="window.location.href='#skillsPage'"
+							>
+								<span style="font-size: 1.5em; color: Tomato">
+									<i class="fas fa-layer-group"></i>
+								</span>
+								Skills
+							</button>
+
+							<button
+								class="mobile-btn"
+								onclick="window.location.href='#educationPage'"
+							>
+								<span style="font-size: 1.7em; color: purple">
+									<i class="fas fa-user-graduate"></i>
+								</span>
+								Education
+							</button>
+
+							<button
+								class="mobile-btn"
+								onclick="window.location.href='#contactPage'"
+							>
+								<span style="font-size: 1.5em; color: brown">
+									<i class="fas fa-envelope"></i>
+								</span>
+								Contact
+							</button>
+
+							<button
+								class="mobile-btn"
+								onclick="window.location.href='https://drive.google.com/file/d/1sKLQUAmSbWn4fVQCvHq1R2JJ0XldRnN3/view?usp=sharing'"
+							>
+								<span style="font-size: 1.9em; color: grey">
+									<i class="fas fa-file-alt"></i>
+								</span>
+								Resume
+							</button>
+						</ul>
+					</div>
+
+					<!-- row end -->
+				</div>
+
+				<!-- column start -->
+				<div class="col-12" id="container-div">
+					<!-- ================================================================== -->
+					<div class="row">
+						<div id="aboutPage"></div>
+						<div class="col-12" id="banner">ABOUT</div>
+					</div>
+					<div class="row content-page" id="page">
+						<div class="col- about fit-content">
+							<div id="about-page">
+								<img id="profile-pic" src="./assets/imgs/profile-pic.jpg" />
+
+								<h1 id="statement">
+									Dream-Driven, and Passionate Software Engineer
+								</h1>
+
+								<p id="about-text">
+									Full-stack Software Engineer with 2+ years building and
+									supporting mission-critical tools at Blue Origin. I’ve led
+									complex, cross-functional engineering initiatives across
+									backend and frontend systems from technical design through
+									delivery. I thrive in fast-paced and collaborative
+									environments with a track record of unblocking teams,
+									improving workflows, and mentoring others. I want to grow into
+									roles where I contribute to large-scale systems, tackle
+									challenging performance and debug problems with products that
+									impact users at global scale.
+								</p>
+
+								<p id="about-text"></p>
+							</div>
+						</div>
+					</div>
+					<!-- ================================================================== -->
+					<div class="row">
+						<div class="offset" id="experiencePage"></div>
+						<div class="col-12" id="banner">EXPERIENCE</div>
+					</div>
+					<div class="row content-page" id="page">
+						<div class="col- experience center-col fit-content">
+							<!-- QSC Tutor card -->
+							<div id="info-card">
+								<div id="info-card-header">
+									<img id="icon" src="./assets/icons/blue_origin.png" />
+									<p id="title">Software Engineer II</p>
+									<p>Blue Origin</p>
+								</div>
+
+								<div id="info-card-content">
+									<p id="title-mobile">Enterprise Software Engineer I</p>
+									<ul id="list">
+										<li id="list-element">
+											Owned and delivered two strategic milestones, including a
+											full-stack initiative spanning four engineering teams. Led
+											technical design, cross-team coordination, stakeholder
+											alignment, and implementation planning for a highly
+											requested feature supporting mechanical engineering
+											workflows.
+										</li>
+										<li id="list-element">
+											Built and shipped a Chrome extension during a company-wide
+											hackathon, integrating in-house AI models to enable
+											seamless access within engineers’ browsers. The tool was
+											adopted across the company and accelerated developer
+											workflows.
+										</li>
+										<li id="list-element">
+											Acted as team “scrummer”, launching a lightweight
+											pre-sprint planning process that cut 30 minutes from each
+											sprint planning session. Improved team efficiency and
+											reduced planning overhead for engineers and TPMs.
+										</li>
+										<li id="list-element">
+											Onboarded two new hires as a designated “Blue Guide,”
+											helping them ramp up on team workflows, tools, and
+											codebase over their first two weeks.
+										</li>
+										<li id="list-element">
+											On-call lead and go-to resource within the team,
+											frequently consulted by peers for debugging, architecture
+											guidance, and unblock support.
+										</li>
+										<li id="list-element">
+											Temporarily embedded with another team for six weeks to
+											help spin up a new backend service, selected for prior
+											experience and trusted cross-team relationships.
+										</li>
+									</ul>
+									<p id="date">Jun 2022 - Present | Kent, WA</p>
+								</div>
+							</div>
+
+							<!-- QSC Tutor card -->
+							<div id="info-card">
+								<div id="info-card-header">
+									<img id="icon" src="./assets/icons/W-Logo_Purple_Hex.png" />
+									<p id="title">Computer Science Tutor</p>
+									<p>University of Washington QSC</p>
+								</div>
+
+								<div id="info-card-content">
+									<p id="title-mobile">Computer Science Tutor</p>
+									<br id="break" /><br id="break" />
+									<p style="color: grey">
+										- Tutor a highly diverse student body on computer science
+										fundamentals in data structures and algorithms.
+									</p>
+									<ul id="list">
+										Tutor
+										<li id="list-element">
+											Reinforce solid understanding and grasp on core computer
+											science topics like data structures, algorithms and
+											software engineering.
+										</li>
+										<li id="list-element">
+											Created strong interpersonal and leadership skills through
+											the interaction with many students of diverse backgrounds.
+										</li>
+										<li id="list-element">
+											<u>Leveraged knowledge</u> in C++, Java, Python, Software
+											Engineering, Data Structures & Algorithms
+										</li>
+									</ul>
+									<p id="date">Jan 2021 - Jun 2022 | Bothell, WA</p>
+								</div>
+							</div>
+
+							<!-- WAVES card -->
+							<div id="info-card">
+								<div id="info-card-header">
+									<img id="icon" src="./assets/icons/petri.png" />
+									<p id="title">Software Developer Intern</p>
+									<p>W.A.V.E.S (Workshop for Avida-Ed Suite)</p>
+								</div>
+
+								<div id="info-card-content">
+									<p id="title-mobile">Software Developer Intern</p>
+									<br id="break" /><br id="break" />
+									<p style="color: grey">
+										- Improved the digital evolution experiment module in MABE2,
+										a core part of Avida-Ed.
+									</p>
+									<ul id="list">
+										Developer
+										<li id="list-element">
+											Streamlined digital evolution research process by
+											decreasing the number of steps involved in experiment
+											setup and creation by 60%.
+										</li>
+										<li id="list-element">
+											Designed and implemented base abstract classes for
+											genomes, brains, and organisms reducing custom experiment
+											implementation time by 50%.
+										</li>
+										<li id="list-element">
+											<u>Leveraged knowledge</u> in C++, Git, Evolutionary
+											Biology, Python
+										</li>
+									</ul>
+									<p id="date">June 2021 - Aug 2021 | MSU, MI (remote)</p>
+								</div>
+							</div>
+
+							<!-- Tippt Card -->
+							<div id="info-card">
+								<div id="info-card-header">
+									<img id="icon" src="./assets/imgs/tippt-logo.png" />
+									<p id="title">Software Developer Intern</p>
+									<p>Tippt Co.</p>
+								</div>
+
+								<div id="info-card-content">
+									<p id="title-mobile">Software Developer Intern</p>
+									<br id="break" /><br id="break" />
+									<p style="color: grey">
+										- Helped develop and launch progressive web application that
+										allows users to rate and review restaurants in New York city
+										based on their sustainability choices.
+									</p>
+									<ul id="list">
+										Developer
+										<li id="list-element">
+											Implemented photo uploads and user authentication using
+											AWS and Passport.js respectively in a React progressive
+											web app.
+										</li>
+										<li id="list-element">
+											Designed UML and user-story diagrams of entire application
+											before development started which streamlined the
+											development process. UML emphasized modularity of React
+											components, and provided good documentation for future
+											developers.
+										</li>
+										<li id="list-element">
+											<u>Leveraged knowledge</u> in Full Stack Web development,
+											React, JavaScript, Git, Chrome Developer Tools
+										</li>
+									</ul>
+									<p id="date">June 2020 - September 2020 | New York, NY</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ================================================================== -->
+					<div class="row">
+						<div class="offset" id="projectsPage"></div>
+						<div class="col-12" id="banner">PROJECTS</div>
+					</div>
+					<div class="row content-page" id="page">
+						<div class="col- projects center-col fit-content">
+							<!-- ================================================================== -->
+							<!-- ================================================================== -->
+							<div id="project-card">
+								<div id="more-info-page">
+									<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+										<i class="fas fa-times" id="more-info-close-button"></i>
+									</span>
+
+									<div id="more-info-info">
+										<ul id="project-list">
+											React Native Finance Tracker
+											<li id="project-list-element">
+												Allows users to report, delete, filter, and summarize
+												transactions with customizable categories.
+											</li>
+											<li id="project-list-element">
+												Created a REST API with Express.js that talks to a web
+												hosted MySQL database on AWS.
+											</li>
+										</ul>
+										<ul id="project-list">
+											Utilized
+											<li id="project-list-element">
+												Full Stack Web Development, Javascript, CSS, React
+												Native JSX, Node.js
+											</li>
+										</ul>
+									</div>
+
+									<div id="more-info-buttons">
+										<span style="font-size: 2.5em; color: rgb(121, 23, 23)">
+											<i
+												class="fab fa-github"
+												id="github-button"
+												onclick="window.location.href='https://github.com/mitchelljohnson3/RN_finance_tracker/blob/main/README.md'"
+											></i>
+										</span>
+									</div>
+								</div>
+								<img
+									id="project-image"
+									src="./assets/imgs/finance_tracker.jpg"
+								/>
+								<div id="project-info">
+									<p>React Native Finance Tracker</p>
+									<p style="color: black; font-size: 12pt">
+										IOS App that allows users to report, delete, filter, and
+										summarize transactions with customizable categories.
+									</p>
+								</div>
+							</div>
+							<!-- ================================================================== -->
+							<!-- ================================================================== -->
+							<div id="project-card">
+								<div id="more-info-page">
+									<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+										<i class="fas fa-times" id="more-info-close-button"></i>
+									</span>
+
+									<div id="more-info-info">
+										<ul id="project-list">
+											Electron Orbital Simulator
+											<li id="project-list-element">
+												Developed Unity program that generates cartesian point6
+												representations/simulations different orbital shapes of
+												hydrogen-like atoms.
+											</li>
+											<li id="project-list-element">
+												Implemented Monte Carlo distribution sampler in C# to
+												aid the generation of different orbital shapes.
+											</li>
+											<li id="project-list-element">
+												Documenting my development process on YouTube -
+												youtube.com/channel/UCOtgpuwv-usepYzEspPQ8ng.
+											</li>
+										</ul>
+										<ul id="project-list">
+											Utilized
+											<li id="project-list-element">
+												C#, Linear Algebra, Multivariable Calculus, Matlab
+											</li>
+										</ul>
+									</div>
+
+									<div id="more-info-buttons">
+										<span style="font-size: 2.5em; color: rgb(121, 23, 23)">
+											<i
+												class="fab fa-github"
+												id="github-button"
+												onclick="window.location.href='https://github.com/mitchelljohnson3/AtomSim'"
+											></i>
+										</span>
+									</div>
+								</div>
+								<img id="project-image" src="./assets/imgs/atom-sim.png" />
+								<div id="project-info">
+									<p>Electron Orbital Simulator</p>
+									<p style="color: black; font-size: 12pt">
+										Unity program that simulates electron orbitals in cartesian
+										coordinates.
+									</p>
+								</div>
+							</div>
+							<!-- ================================================================== -->
+							<!-- ================================================================== -->
+							<div id="project-card">
+								<div id="more-info-page">
+									<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+										<i class="fas fa-times" id="more-info-close-button"></i>
+									</span>
+
+									<div id="more-info-info">
+										<ul id="project-list">
+											Investing Bot + Strategy Backtester
+											<li id="project-list-element">
+												Designed and developed an investment algorithm that
+												analyzes market data in real time to buy and sell
+												stocks.
+											</li>
+											<li id="project-list-element">
+												Created investment backtester that tests a given
+												algorithm on 5+ years of historical data with any amount
+												of symbols, giving a report of how the algorithm
+												performed at the end.
+											</li>
+										</ul>
+										<ul id="project-list">
+											Utilized
+											<li id="project-list-element">
+												Python, Data Structure & Algorithms, Alpaca API and
+												broker
+											</li>
+										</ul>
+									</div>
+
+									<div id="more-info-buttons">
+										<span style="font-size: 2.5em; color: rgb(121, 23, 23)">
+											<i
+												class="fab fa-github"
+												id="github-button"
+												onclick="window.location.href='https://github.com/mitchelljohnson3/AlpacaBot'"
+											></i>
+										</span>
+									</div>
+								</div>
+								<img id="project-image" src="./assets/imgs/alpaca.png" />
+								<div id="project-info">
+									<p>Investing Bot + Strategy Backtester</p>
+									<p style="color: black; font-size: 12pt">
+										Stock investment bot and stategy backtester built using
+										Alpaca API.
+									</p>
+								</div>
+							</div>
+							<!-- ================================================================== -->
+							<!-- ================================================================== -->
+							<div id="project-card">
+								<div id="more-info-page">
+									<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+										<i class="fas fa-times" id="more-info-close-button"></i>
+									</span>
+
+									<div id="more-info-info">
+										<ul id="project-list">
+											Rimor in Space
+											<li id="project-list-element">
+												Collaboratively developed free-to-play 2-D space shooter
+												using Unity.
+											</li>
+											<li id="project-list-element">
+												Made for final project in a game development class at my
+												university.
+											</li>
+										</ul>
+										<ul id="project-list">
+											Utilized
+											<li id="project-list-element">
+												Unity, C#, Data Structures & Algorithms
+											</li>
+										</ul>
+									</div>
+
+									<div id="more-info-buttons">
+										<span style="font-size: 2.5em; color: rgb(121, 23, 23)">
+											<i
+												class="fas fa-share-square"
+												id="github-button"
+												onclick="window.location.href='https://mitchelljohnson3.github.io/webgl-rimor-in-space/index.html'"
+											></i>
+										</span>
+									</div>
+								</div>
+								<img
+									id="project-image"
+									src="./assets/imgs/rimor-in-space.png"
+								/>
+								<div id="project-info">
+									<p>Rimor in Space</p>
+									<p style="color: black; font-size: 12pt">
+										Space-themed 2-D top-down shooter made with Unity.
+									</p>
+								</div>
+							</div>
+							<!-- ================================================================== -->
+							<!-- ================================================================== -->
+							<div id="project-card">
+								<div id="more-info-page">
+									<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+										<i class="fas fa-times" id="more-info-close-button"></i>
+									</span>
+
+									<div id="more-info-info">
+										<ul id="project-list">
+											Archer
+											<li id="project-list-element">
+												Developed archery simulator in Unity using vector math
+												to detect collisions rather than colliders.
+											</li>
+											<li id="project-list-element">
+												Made for final project in a 3D graphics class at my
+												university.
+											</li>
+										</ul>
+										<ul id="project-list">
+											Utilized
+											<li id="project-list-element">
+												Unity, C#, Data Structures & Algorithms
+											</li>
+										</ul>
+									</div>
+
+									<div id="more-info-buttons">
+										<span style="font-size: 2.5em; color: rgb(121, 23, 23)">
+											<i
+												class="fas fa-share-square"
+												id="github-button"
+												onclick="window.location.href='https://mitchelljohnson3.github.io/webgl-archer/index.html'"
+											></i>
+										</span>
+									</div>
+								</div>
+								<img id="project-image" src="./assets/imgs/archer.png" />
+								<div id="project-info">
+									<p>Archer</p>
+									<p style="color: black; font-size: 12pt">
+										Archery simulator made from scratch in Unity.
+									</p>
+								</div>
+							</div>
+							<!-- ================================================================== -->
+							<!-- ================================================================== -->
+							<!-- <div id="project-card">
                             <div id="more-info-page">
 
                                 <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
@@ -541,238 +682,247 @@
                                 <p style="color: black; font-size: 12pt;">MySQL Content Management System</p>
                             </div>
                         </div> -->
+						</div>
+					</div>
+					<!-- ================================================================== -->
+					<div class="row">
+						<div class="offset" id="skillsPage"></div>
+						<div class="col-12" id="banner">SKILLS</div>
+					</div>
+					<div class="row content-page" id="page">
+						<div class="col- skills center-col fit-content">
+							<div class="skills-card">
+								<p id="skill-title">Proficient</p>
+								<div id="skill-info">
+									<p id="sub-skill-title">Languages:</p>
+									<div id="skill-list">
+										<figure>
+											<img id="skill-icon" src="./assets/icons/c++.png" />
+											<figcaption id="label">C++</figcaption>
+										</figure>
 
-                    </div>
-                </div>
-                <!-- ================================================================== -->
-                <div class="row">
-                    <div class="offset" id="skillsPage"></div>
-                    <div class="col-12" id="banner">SKILLS</div>
-                </div>
-                <div class="row content-page" id="page">
-                    <div class="col- skills center-col fit-content">
+										<figure>
+											<img id="skill-icon" src="./assets/icons/java.png" />
+											<figcaption id="label">Java</figcaption>
+										</figure>
 
-                        <div class="skills-card">
-                            <p id="skill-title">Proficient</p>
-                            <div id="skill-info">
+										<figure>
+											<img
+												id="skill-icon"
+												src="./assets/icons/javascript.png"
+											/>
+											<figcaption id="label">JavaScript</figcaption>
+										</figure>
 
-                                <p id="sub-skill-title">Languages:</p>
-                                <div id="skill-list">
+										<figure>
+											<img id="skill-icon" src="./assets/icons/python.png" />
+											<figcaption id="label">Python</figcaption>
+										</figure>
+									</div>
+									<p id="sub-skill-title">Tools:</p>
+									<div id="skill-list">
+										<figure>
+											<img id="skill-icon" src="./assets/icons/MySQL.png" />
+											<figcaption id="label">MySQL</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/c++.png">
-                                        <figcaption id="label">C++</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/mongodb.png" />
+											<figcaption id="label">MongoDB</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/java.png">
-                                        <figcaption id="label">Java</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/nodejs.png" />
+											<figcaption id="label">Node.js</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/javascript.png">
-                                        <figcaption id="label">JavaScript</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/react.png" />
+											<figcaption id="label">React.js</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/python.png">
-                                        <figcaption id="label">Python</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/git.png" />
+											<figcaption id="label">Git</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
 
-                                </div>
-                                <p id="sub-skill-title">Tools:</p>
-                                <div id="skill-list">
+							<div class="skills-card">
+								<p id="skill-title">Beginner</p>
+								<div id="skill-info">
+									<p id="sub-skill-title">Languages:</p>
+									<div id="skill-list">
+										<figure>
+											<img id="skill-icon" src="./assets/icons/csharp.png" />
+											<figcaption id="label">C Sharp</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/MySQL.png">
-                                        <figcaption id="label">MySQL</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/jquery.png" />
+											<figcaption id="label">jQuery</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/mongodb.png">
-                                        <figcaption id="label">MongoDB</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/sass.png" />
+											<figcaption id="label">SASS</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/nodejs.png">
-                                        <figcaption id="label">Node.js</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/css3.png" />
+											<figcaption id="label">CSS3</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/react.png">
-                                        <figcaption id="label">React.js</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/html5.png" />
+											<figcaption id="label">HTML5</figcaption>
+										</figure>
+									</div>
+									<p id="sub-skill-title">Tools:</p>
+									<div id="skill-list">
+										<figure>
+											<img id="skill-icon" src="./assets/icons/bootstrap.png" />
+											<figcaption id="label">Bootstrap</figcaption>
+										</figure>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/git.png">
-                                        <figcaption id="label">Git</figcaption>
-                                    </figure>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/heroku.png" />
+											<figcaption id="label">Heroku</figcaption>
+										</figure>
 
-                                </div>
+										<figure>
+											<img id="skill-icon" src="./assets/icons/express.png" />
+											<figcaption id="label">Express.js</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ================================================================== -->
+					<div class="row">
+						<div class="offset" id="educationPage"></div>
+						<div class="col-12" id="banner">EDUCATION</div>
+					</div>
+					<div class="row content-page" id="page">
+						<div class="col- education center-col fit-content">
+							<div id="education-info-card">
+								<div id="info-card-header">
+									<img id="icon" src="./assets/icons/W-Logo_Purple_Hex.png" />
+									<p>University of Washington Bothell</p>
+								</div>
 
-                            </div>
-                        </div>
+								<div id="info-card-content">
+									<p><b>Bachelor of Science</b></p>
+									<li>Computer Science and Software Engineering</li>
+									<p><b>Minor</b></p>
+									<li>Neuroscience</li>
+									<p id="date">Sep 2019 - Jun 2022 | Bothell, WA</p>
+								</div>
+							</div>
 
-                        <div class="skills-card">
-                            <p id="skill-title">Beginner</p>
-                            <div id="skill-info">
+							<div id="info-card">
+								<div id="info-card-header">
+									<img id="icon" src="./assets/icons/W-Logo_Purple_Hex.png" />
+									<p>University of Washington Full Stack Bootcamp</p>
+								</div>
 
-                                <p id="sub-skill-title">Languages:</p>
-                                <div id="skill-list">
+								<div id="info-card-content">
+									<p style="color: grey">
+										- Gained real world practice and experience in front-end and
+										server-side development and deployment
+									</p>
+									<ul id="list">
+										Technical Program Manager
+										<li id="list-element">
+											Coordinated teams of 4 focusing on Agile Development and
+											mobile first methodology to successfully deploy 3 large
+											web applications
+										</li>
+										<li id="list-element">
+											Assigned tasks to team members based on their strengths to
+											keep team morale strong and improve group efficiency by
+											posting daily tasks to our team Kanban
+										</li>
+										<li id="list-element">
+											Oversaw all pull/push and merge requests to repository
+											which streamlined and improved group performance by
+											preventing loss of valuable work and time
+										</li>
+									</ul>
+									<ul id="list">
+										Developer
+										<li id="list-element">
+											Designed responsive and lightweight CSS3 framework that
+											allowed my team to deploy Minimal Viable Product quickly
+											and easily
+										</li>
+										<li id="list-element">
+											Established solid understanding of front end and
+											server-side technologies including MERN Stack, MySQL and
+											AJAX allowing me to excel in every aspect of deployment
+										</li>
+										<li id="list-element">
+											Created custom server APIs using Node.js, allowing
+											front-end applications to have unique functionality
+										</li>
+									</ul>
+									<p id="date">Sep 2019 - May 2020 | Bellevue, WA</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- ================================================================== -->
+					<div class="row">
+						<div class="offset" id="contactPage"></div>
+						<div class="col-12" id="banner">CONTACT</div>
+					</div>
+					<div class="row content-page" id="page">
+						<div class="col- contact fit-content center-col">
+							<div id="contact-card">
+								<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+									<i
+										class="fas fa-envelope"
+										id="contact-button"
+										onclick="window.location.href='mailto:mitchj9@uw.edu'"
+									></i
+									><a href="mailto:mitchj9@uw.edu" id="link">mitchj9@uw.edu</a>
+								</span>
+								<br />
+								<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+									<i
+										class="fab fa-github"
+										id="contact-button"
+										onclick="window.location.href='https://github.com/mitchelljohnson3'"
+									></i
+									><a href="https://github.com/mitchelljohnson3" id="link"
+										>github.com/mitchelljohnson3</a
+									>
+								</span>
+								<br />
+								<span style="font-size: 1.8em; color: rgb(121, 23, 23)">
+									<i
+										class="fab fa-linkedin"
+										id="contact-button"
+										onclick="window.location.href='https://www.linkedin.com/in/mitchelljohnson3/'"
+									></i
+									><a
+										href="https://www.linkedin.com/in/mitchelljohnson3"
+										id="link"
+										>linkedin.com/in/mitchelljohnson3</a
+									>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- ================================================================== -->
+				</div>
 
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/csharp.png">
-                                        <figcaption id="label">C Sharp</figcaption>
-                                    </figure>
-
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/jquery.png">
-                                        <figcaption id="label">jQuery</figcaption>
-                                    </figure>
-
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/sass.png">
-                                        <figcaption id="label">SASS</figcaption>
-                                    </figure>
-
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/css3.png">
-                                        <figcaption id="label">CSS3</figcaption>
-                                    </figure>
-
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/html5.png">
-                                        <figcaption id="label">HTML5</figcaption>
-                                    </figure>
-
-                                </div>
-                                <p id="sub-skill-title">Tools:</p>
-                                <div id="skill-list">
-
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/bootstrap.png">
-                                        <figcaption id="label">Bootstrap</figcaption>
-                                    </figure>
-
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/heroku.png">
-                                        <figcaption id="label">Heroku</figcaption>
-                                    </figure>
-
-                                    <figure>
-                                        <img id="skill-icon" src="./assets/icons/express.png">
-                                        <figcaption id="label">Express.js</figcaption>
-                                    </figure>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- ================================================================== -->
-                <div class="row">
-                    <div class="offset" id="educationPage"></div>
-                    <div class="col-12" id="banner">EDUCATION</div>
-                </div>
-                <div class="row content-page" id="page">
-                    <div class="col- education center-col fit-content">
-
-                        <div id="education-info-card">
-
-                            <div id="info-card-header">
-                                <img id="icon" src="./assets/icons/W-Logo_Purple_Hex.png">
-                                <p>University of Washington Bothell</p>
-                            </div>
-
-                            <div id="info-card-content">
-                                <p><b>Bachelor of Science</b></p>
-                                <li>Computer Science and Software Engineering</li>
-                                <p><b>Minor</b></p>
-                                <li>Neuroscience</li>
-                                <p id="date">Sep 2019 - Jun 2022 | Bothell, WA</p>
-                            </div>
-
-                        </div>
-
-                        <div id="info-card">
-
-                            <div id="info-card-header">
-                                <img id="icon" src="./assets/icons/W-Logo_Purple_Hex.png">
-                                <p>University of Washington Full Stack Bootcamp</p>
-                            </div>
-
-                            <div id="info-card-content">
-                                <p style="color: grey;"> - Gained real world practice and experience in front-end and
-                                    server-side development and deployment</p>
-                                <ul id="list">Technical Program Manager
-                                    <li id="list-element">Coordinated teams of 4 focusing on Agile Development and
-                                        mobile first methodology to successfully deploy 3 large web applications</li>
-                                    <li id="list-element">Assigned tasks to team members based on their strengths to
-                                        keep team morale strong and improve group efficiency by posting daily tasks to
-                                        our team Kanban</li>
-                                    <li id="list-element">Oversaw all pull/push and merge requests to repository which
-                                        streamlined and improved group performance by preventing loss of valuable work
-                                        and time</li>
-                                </ul>
-                                <ul id="list">Developer
-                                    <li id="list-element">Designed responsive and lightweight CSS3 framework that
-                                        allowed my team to deploy Minimal Viable Product quickly and easily</li>
-                                    <li id="list-element">Established solid understanding of front end and server-side
-                                        technologies including MERN Stack, MySQL and AJAX allowing me to excel in every
-                                        aspect of deployment</li>
-                                    <li id="list-element">Created custom server APIs using Node.js, allowing front-end
-                                        applications to have unique functionality</li>
-                                </ul>
-                                <p id="date">Sep 2019 - May 2020 | Bellevue, WA</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <!-- ================================================================== -->
-                <div class="row">
-                    <div class="offset" id="contactPage"></div>
-                    <div class="col-12" id="banner">CONTACT</div>
-                </div>
-                <div class="row content-page" id="page">
-                    <div class="col- contact fit-content center-col">
-
-                        <div id="contact-card">
-
-                            <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                <i class="fas fa-envelope" id="contact-button"
-                                    onclick="window.location.href='mailto:mitchj9@uw.edu'"></i><a
-                                    href="mailto:mitchj9@uw.edu" id="link">mitchj9@uw.edu</a>
-                            </span>
-                            <br>
-                            <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                <i class="fab fa-github" id="contact-button"
-                                    onclick="window.location.href='https://github.com/mitchelljohnson3'"></i><a
-                                    href="https://github.com/mitchelljohnson3" id="link">github.com/mitchelljohnson3</a>
-                            </span>
-                            <br>
-                            <span style="font-size: 1.8em; color: rgb(121, 23, 23);">
-                                <i class="fab fa-linkedin" id="contact-button"
-                                    onclick="window.location.href='https://www.linkedin.com/in/mitchelljohnson3/'"></i><a
-                                    href="https://www.linkedin.com/in/mitchelljohnson3"
-                                    id="link">linkedin.com/in/mitchelljohnson3</a>
-                            </span>
-
-                        </div>
-
-                    </div>
-                </div>
-                <!-- ================================================================== -->
-            </div>
-
-            <!-- main row end -->
-        </div>
-        <!-- main container end -->
-    </div>
-    <script src="./assets/js/script.js"></script>
-</body>
-
+				<!-- main row end -->
+			</div>
+			<!-- main container end -->
+		</div>
+		<script src="./assets/js/script.js"></script>
+	</body>
 </html>
